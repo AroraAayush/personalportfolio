@@ -1,9 +1,12 @@
 import React from 'react'
-import logo from '../../assets/file.png'
+import logodarkmode from '../../assets/logodarkmode.png'
+import { useTheme } from '../../context/themeContext'
+import logolightmode from '../../assets/logolightmode.png'
 function Logo() {
+  const {themeMode}=useTheme();
   return (
     <div className=''>
-      <img  className="w-14 h-16 " src={logo} alt="" />
+      <img  className="w-20 h-20 " src={(themeMode=="dark")?logodarkmode:logolightmode} alt="" />
     </div>
   )
 }

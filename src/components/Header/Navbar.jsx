@@ -2,6 +2,7 @@ import React from 'react'
 import Logo from './Logo'
 import DesktopMenu from './DesktopMenu'
 import MobileMenu from './MobileMenu'
+import Switch from './Switch'
 
 function Navbar() {
   return (
@@ -10,6 +11,8 @@ function Navbar() {
                 <Logo/>
                 <DesktopMenu/>
                 <MobileMenu/>
+                
+                
             
         </div>
       
