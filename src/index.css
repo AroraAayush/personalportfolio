@@ -10,5 +10,6 @@
 :root
 {
   font-family: "Inter" ,"Alex Brush","Cedarville Cursive","Lora","Playwrite NO","Playwrite SK","Tangerine",sans-serif;
+  overflow-x: hidden;
 }
 
