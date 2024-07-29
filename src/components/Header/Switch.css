@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 /* label{
     width: 2.5rem;
     height: 2.5rem;
     background: red;
+=======
+label{
+    width: 2.5rem;
+    height: 2.5rem;
+    /* background: red; */
+>>>>>>> ddbe33003f881ee7d997072d640d2b9029a75546
     cursor: pointer;
     border-radius: 50%;
     display: flex;
@@ -19,7 +26,11 @@ input{
     font-size: 1rem;
     color:#666;
     transition: 1s ease;
+<<<<<<< HEAD
     transition-delay: 0.8s;
+=======
+    /* transition-delay: 0.8s; */
+>>>>>>> ddbe33003f881ee7d997072d640d2b9029a75546
     filter: drop-shadow(0 0 2px rgba(0,0,0,0.5));
 }
 
@@ -62,6 +73,12 @@ input:checked~.moon
 
 input:checked~.sun
 {
+<<<<<<< HEAD
     transition-delay: 0.8s;
     transform: rotate(360deg) scale(1);
 } */
+=======
+    /* transition-delay: 0.8s; */
+    transform: rotate(360deg) scale(1);
+}
+>>>>>>> ddbe33003f881ee7d997072d640d2b9029a75546
